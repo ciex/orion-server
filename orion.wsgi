@@ -1,9 +1,9 @@
+import logging
 import os
 import site
 import sys
-import logging
 
-ENV_DIR = "env"
+ENV_DIR = 'env'
 
 # Set current working directory
 here = os.path.dirname(os.path.abspath(__file__))
